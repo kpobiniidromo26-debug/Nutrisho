@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nutrisho Profile</title>
+<link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+      <nav class="navbar">
+        <h1>Nutrisho</h1>
+        <ul>
+            <li><a href="nutrisho.html">Home</a></li>
+            <li><a href="C:\Users\Hp\VSC\mission.html">Missions</a></li>
+            <li><a href="workout.html">Workout</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+      </nav>
+<h1 class="title">👤 Your Profile</h1>
+
+<div class="profile-container">
+
+<div class="profile-form">
+
+<h2>Edit Profile</h2>
+
+<label>Name</label>
+<input type="text" id="name">
+
+<label>Age</label>
+<input type="number" id="age">
+
+<label>Height (cm)</label>
+<input type="number" id="height">
+
+<label>Weight (kg)</label>
+<input type="number" id="weight">
+
+<label>Fitness Goal</label>
+<select id="goal">
+<option value="Lose Weight">Lose Weight</option>
+<option value="Build Muscle">Build Muscle</option>
+<option value="Stay Fit">Stay Fit</option>
+</select>
+
+<button onclick="saveProfile()">Save Profile</button>
+
+</div>
+
+<div class="profile-display">
+
+<h2>Profile Summary</h2>
+
+<p><strong>Name:</strong> <span id="displayName">-</span></p>
+<p><strong>Age:</strong> <span id="displayAge">-</span></p>
+<p><strong>Height:</strong> <span id="displayHeight">-</span> cm</p>
+<p><strong>Weight:</strong> <span id="displayWeight">-</span> kg</p>
+<p><strong>Goal:</strong> <span id="displayGoal">-</span></p>
+
+</div>
+
+</div>
+
+<script src="profile.js"></script>
+
+</body>
+</html>

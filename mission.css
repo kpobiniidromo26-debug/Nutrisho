@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: cyan;
+}
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e90ff;
+    color: white;
+    padding: 15px 30px;
+}
+.navbar h1 {
+    text-align: right;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.navbar li {
+    cursor: pointer;
+}
+.navbar a:hover {
+    color: rgba(0, 255, 255, 0.199);
+}
+.title{
+margin-top:30px;
+color:#1e90ff;
+}
+
+.xp-box{
+background:white;
+width:200px;
+margin:20px auto;
+padding:10px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.xp-box h2{
+    color: black;
+}
+.xp-box span{
+    color: black;
+}
+
+.mission-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:30px;
+}
+.mission-container p{
+color: black;
+}
+.mission-container h3{
+    color: black;
+}
+
+.mission-card{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.mission-card:hover{
+transform:translateY(-5px);
+}
+
+button{
+padding:10px 15px;
+border:none;
+border-radius:10px;
+background:#1e90ff;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#0f6cd1;
+}
+
+button.completed{
+background:green;
+cursor:default;
+}
+
+.progress-bar{
+width:80%;
+height:20px;
+background:#ddd;
+border-radius:10px;
+margin:20px auto;
+overflow:hidden;
+}
+
+.progress{
+height:100%;
+width:0%;
+background:#28a745;
+transition:0.4s;
+}

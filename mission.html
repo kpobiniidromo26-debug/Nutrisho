@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mission.css">
+    <title>Nutrisho Missions</title>
+</head>
+<body>
+     </nav> <nav class="navbar">
+        <h1>Nutrisho</h1>
+        <ul>
+            <li><a href="nutrisho.html">Home</a></li>
+            <li><a href="C:\Users\Hp\VSC\mission.html">Missions</a></li>
+            <li><a href="workout.html">Workout</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+
+<h1 class="title">🎯 Daily Fitness Missions</h1>
+
+<div class="xp-box">
+    <h2>Total XP: <span id="xp">0</span></h2>
+</div>
+
+<div class="mission-container">
+
+    <div class="mission-card">
+        <h3>🏃 Run for 10 minutes</h3>
+        <p>Burn calories and improve endurance</p>
+        <button onclick="completeMission(this, 50)">Complete (+50 XP)</button>
+    </div>
+
+    <div class="mission-card">
+        <h3>🔥 20 Squats</h3>
+        <p>Strengthen your legs</p>
+        <button onclick="completeMission(this, 30)">Complete (+30 XP)</button>
+    </div>
+
+    <div class="mission-card">
+        <h3>💪 15 Push Ups</h3>
+        <p>Build upper body strength</p>
+        <button onclick="completeMission(this, 30)">Complete (+30 XP)</button>
+    </div>
+
+    <div class="mission-card">
+        <h3>⚡ 1 Minute Plank</h3>
+        <p>Core stability challenge</p>
+        <button onclick="completeMission(this, 40)">Complete (+40 XP)</button>
+    </div>
+
+    <div class="mission-card">
+        <h3>🚴 15 Minute Cycling</h3>
+        <p>Great for fat burning</p>
+        <button onclick="completeMission(this, 60)">Complete (+60 XP)</button>
+    </div>
+
+</div>
+
+<h2>Mission Progress</h2>
+
+<div class="progress-bar">
+    <div class="progress" id="progress"></div>
+</div>
+
+<script src="missions.js"></script>
+</body>
+</html>

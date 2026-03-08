@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: cyan;
+    text-align: center;
+}
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e90ff;
+    color: white;
+    padding: 15px 30px;
+}
+.navbar h1 {
+    text-align: right;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.navbar li {
+    cursor: pointer;
+}
+.navbar a:hover {
+    color: rgba(0, 255, 255, 0.199);
+}
+.title {
+    margin: 30px 0;
+    color: #dee0e2;
+    font-size: 2rem;
+}
+
+.workout-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.workout-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.workout-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.workout-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.workout-card h3 {
+    margin: 10px 0 5px;
+}
+
+.workout-card p {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.workout-card button {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.workout-card button:hover {
+    background-color: #0f6cd1;
+}
